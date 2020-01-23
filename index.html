@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css\style.css">
     <link rel="stylesheet" href="css\animate.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
 </head>
 
 <body>
@@ -32,9 +33,11 @@
                 <div class="hero-text">
                     <span class="hero-subtitle wow fadeInRight" data-wow-delay="0.2s">Фрилансер</span>
                     <h1 class="hero-title wow fadeInRight" data-wow-delay="0.4s">Виталий Павлов</h1>
-                    <p class="hero-description wow fadeInRight" data-wow-delay="0.6s">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать
+                    <p class="hero-description wow fadeInRight" data-wow-delay="0.6s">Разрабатываю сайты для малого и
+                        среднего бизнеса. У меня можно заказать
                         дизайн и верстку небольшого сайта или интернет-магазина</p>
-                    <button class="button hero-batton wow fadeInRight" data-wow-delay="0.8s">Бесплатная консультация</button>
+                    <button class="button hero-batton wow fadeInRight" data-wow-delay="0.8s">Бесплатная
+                        консультация</button>
                 </div>
                 <!-- /.hero-text -->
                 <div class="hero-avatar wow fadeIn" data-wow-delay="1.5s"></div>
@@ -87,6 +90,71 @@
                 </div>
             </div>
         </section>
+        <section class="section project">
+            <div class="container">
+                <h2 class="section-title">Последние проекты</h2>
+                <!-- Slider main container -->
+                <div class="swiper-container projects-slider">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide projects-slide">
+                            <img src="img/project-img.png" alt="slide" class="project-image">
+                            <div class="project-text">
+                                <h3 class="project-title">Сайт строительной фирмы “Велстрой”</h3>
+                                <div class="project-time">
+                                    <img src="img/time-icon.svg" alt="Срок" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Сроки</h4>
+                                        <p class="project-paragraph">4 рабочих дня</p>
+                                    </div>
+                                </div>
+                                <div class="project-cost">
+                                    <img src="img/cost-icon.svg" alt="Стоимость" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Стоимость</h4>
+                                        <p class="project-paragraph">14 000 рублей</p>
+                                    </div>
+                                </div>
+                                <div class="project-feedback">
+                                    <img src="img/feedback-icon.svg" alt="Отзыв клиента" class="project-icon">
+                                    <div class="project-description">
+                                        <h4 class="project-subtitle">Отзыв клиента</h4>
+                                        <p class="project-paragraph">Мне понравилось работать с Артемом, потому что он
+                                            все
+                                            время был на связи и предлагал свои решения, когда мы заходили в тупик с
+                                            дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем —
+                                            тот
+                                            редкий фрилансер, у которого с документами все в порядке</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        ...
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="project-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <!-- <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> -->
+
+                    <!-- If we need scrollbar -->
+                    <!-- <div class="swiper-scrollbar"></div> -->
+                </div>
+                <!-- <div class="projects-slider">
+                    <div class="projects-slide">
+                   
+                    </div> -->
+                <!-- /.projects-slide -->
+                <!-- </div> -->
+                <!-- /.projects-slider -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.section project -->
     </main>
     <footer class="section">
         <div class="container">
@@ -136,8 +204,9 @@
             </div>
         </div>
     </footer>
-<script src="script/wow.min.js"></script>
-<script src="script/main.js"></script>
+    <script src="script/wow.min.js"></script>
+    <script src="script/swiper.min.js"></script>
+    <script src="script/main.js"></script>
 </body>
 
 </html>
